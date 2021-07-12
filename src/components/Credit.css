@@ -1,0 +1,15 @@
+.credit-container
+{
+  position: relative;
+  background-color: #ffffff;
+}
+
+p{
+  font-size: 14px;
+}
+
+span
+{
+  position: relative;
+  color: #00D2D4 ;
+}
