@@ -21,8 +21,10 @@ class MainPage extends React.Component {
       <Mission />
       <About />
       <Portfolio />
-      <Internships />
-      <Contact />
+      <div id="internships-container">
+        <Internships />
+        <Contact />
+      </div>
       </>
 
     );
