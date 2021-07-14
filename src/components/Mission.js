@@ -46,6 +46,7 @@ class Mission extends React.Component {
           </div>
         </div>
         <div id='mission-video-container'>
+          <video preload="none" autoplay="" playsinline="true" src="https://video.wixstatic.com/video/132a22_f8c893ecc2c74984901b0213b6073de0/240p/mp4/file.mp4"></video>
         </div>
       </div>
     );
