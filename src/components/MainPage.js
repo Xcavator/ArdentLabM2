@@ -7,11 +7,12 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Internships from "./Internships";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 class MainPage extends React.Component {
   render() {
     return (
-      <>
+      <div id='mainpage-container'>
       <Header />
       <div>
         <p>
@@ -24,9 +25,9 @@ class MainPage extends React.Component {
       <div id="internships-container">
         <Internships />
         <Contact />
+        <Footer />
       </div>
-      </>
-
+      </div>
     );
   }
 };

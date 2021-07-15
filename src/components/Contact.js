@@ -1,5 +1,5 @@
 import React from "react";
-// import "./P.css";
+import "./Contact.css";
 
 class Contact extends React.Component {
   submitHandler(){
