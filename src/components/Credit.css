@@ -1,11 +1,13 @@
-.credit-container
+#credit-cmpnt-container
 {
-  position: absolute;
+  /* position: absolute; */
+  width: 100%;
   background-color: #ffffff;
 }
 
 p{
   font-size: 14px;
+  margin: 0;
 }
 
 span

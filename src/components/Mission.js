@@ -1,5 +1,5 @@
 import React from "react";
-// import "./P.css";
+import "./Mission.css";
 
 class Mission extends React.Component {
   render() {

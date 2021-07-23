@@ -4,7 +4,7 @@ import "./Credit.css";
 class Credit extends React.Component {
   render() {
     return (
-        <div className="credit-container">
+        <div id="credit-cmpnt-container">
           <p>
             <span>© 2019 by Ardent Labs</span>
           </p>

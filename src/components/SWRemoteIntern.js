@@ -3,6 +3,7 @@ import React from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
+import BGVideo from "./BGVideo";
 
 class SWRIntern extends React.Component {
   submitHandler(){
@@ -11,6 +12,7 @@ class SWRIntern extends React.Component {
   render() {
     return (
       <div id='internship-page-container'>
+        <BGVideo />
         <Header />
         <div id='internship-intro'>
           <h1>SOFTWARE ENGINEERING VIRTUAL INTERNSHIP</h1>
