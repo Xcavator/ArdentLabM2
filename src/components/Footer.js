@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
   render() {
@@ -11,12 +12,12 @@ class Footer extends React.Component {
 
           <div id='footer-links' class='footer-col'>
             <p>QUICK LINKS</p>
-            <div id='link-list'>
+            <div id='link-list'>              
               <div class='link-item'>
-                <a href='/#mainpage-cmpnt-container'>Home</a>
+                <Link to='/'><span>Home</span></Link>
               </div>
               <div class='link-item'>
-                <a href='#about-cmpnt-container'>Software Engineering Virtual Internship</a>
+                <Link to='/software-engineering-remote-interns'><span>Software Engineering Virtual Internship</span></Link>
               </div>
               <div class='link-item'>
                 <a href='/#mission-cmpnt-container'>Mission</a>
@@ -39,8 +40,8 @@ class Footer extends React.Component {
           <div id='footer-contacts' class='footer-col'>
             <p>CONTACT US</p>
             <div>
-              <p>learn@ardentlbs.io</p>
-              <p>949. 496. 1688</p>
+              <p><a href="mailto:learn@ardentlbs.io">learn@ardentlbs.io</a>learn@ardentlbs.io</p>
+              <p>(949)-496-1688</p>
               <p>4199 Campus Drive</p>
               <p>Suite 260</p>
               <p>Irvine, CA 92612</p>

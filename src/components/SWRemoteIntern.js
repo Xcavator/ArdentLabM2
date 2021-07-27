@@ -1,19 +1,15 @@
 import React from "react";
 // import "./Contact.css";
 
-import Header from "./Header";
 import Footer from "./Footer";
-import BGVideo from "./BGVideo";
 
 class SWRIntern extends React.Component {
-  submitHandler(){
-    console.log('submit clicked');
-  }
+  // submitHandler(){
+  //   console.log('submit clicked');
+  // }
   render() {
     return (
       <div id='internship-page-container'>
-        <BGVideo />
-        <Header />
         <div id='internship-intro'>
           <h1>SOFTWARE ENGINEERING VIRTUAL INTERNSHIP</h1>
           <p>As many internships have been suspended, or even cancelled, Ardent Labs aims to continue bringing quality internship programs to everyone at home during the crisis. During our 8-10 weeks virtual spring internship, interns will have the opportunity to learn modern web development tools by working on multiple milestone projects. </p>
@@ -106,7 +102,7 @@ class SWRIntern extends React.Component {
             <a href='https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf'>LEARN MORE ABOUT OUR PROGRAM HERE</a>
           </div>
           <div>
-            <p>If you are interested in applying, please send your resume and transcript to info@ardentlabs.io.</p>
+            <p>If you are interested in applying, please send your resume and transcript to<a href="mailto:info@ardentlabs.io?subject=Resume for Software Engineering Remote Internship"> info@ardentlabs.io.</a></p>
           </div>
         </div>
 
