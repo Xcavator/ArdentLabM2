@@ -4,7 +4,7 @@ import "./Internships.css";
 class Internships extends React.Component {
   render() {
     return (
-      <div id='internships-container'>
+      <div id='internships-cmpnt-container'>
       <div>
         <p>
           <span>Internships</span>

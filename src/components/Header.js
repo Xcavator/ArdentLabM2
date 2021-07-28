@@ -25,15 +25,18 @@ class Header extends React.Component {
               </Link>
             </div>
             <div class='navi-item'>
-            <Link to='/Mission'>
-              <span>About</span>
+              <Link to='/#about-cmpnt-container'>
+                <span>About</span>
               </Link>
             </div>
             <div class='navi-item'>
-              <span>Portfolio</span>
+              <Link to='/#portfolio-cmpnt-container'>
+                <span>Portfolio</span>
+              </Link>
             </div>
             <div class='navi-item'>
               <span>More...</span>
+              <Submenu />
             </div>
 
           </nav>
@@ -42,5 +45,25 @@ class Header extends React.Component {
     );
   }
 };
+
+
+class Submenu extends React.Component {
+  render() {
+    return (
+      <ul id="nav-submenu">
+          <div class='navi-item submenu-item'>
+            <Link to='/#internships-cmpnt-container'>
+              <span>Internships</span>
+            </Link>
+          </div>
+          <div class='navi-item submenu-item'>
+            <Link to='/#contact-cmpnt-container'>
+              <span>Contact</span>
+            </Link>
+          </div>
+      </ul>
+    )
+  }
+}
 
 export default Header;

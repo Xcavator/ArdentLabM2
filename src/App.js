@@ -6,11 +6,17 @@ import MainPage from './components/MainPage';
 import Header from "./components/Header";
 import BGVideo from "./components/BGVideo";
 import SWRIntern from "./components/SWRemoteIntern"
+// import Mission from "./components/Mission";
+// import About from "./components/About";
+// import Portfolio from "./components/Portfolio";
+// import Internships from "./components/Internships";
+// import Contact from "./components/Contact";
 
 function App() {
   return (
     <Router>
       <div className="App">
+      
         <BGVideo />
         <Header />
         <Switch>

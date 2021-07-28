@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Footer extends React.Component {
   render() {
@@ -20,19 +21,24 @@ class Footer extends React.Component {
                 <Link to='/software-engineering-remote-interns'><span>Software Engineering Virtual Internship</span></Link>
               </div>
               <div class='link-item'>
-                <a href='/#mission-cmpnt-container'>Mission</a>
+                <Link to='/#mission-cmpnt-container'><span>Mission</span>
+                </Link>
               </div>
               <div class='link-item'>
-                <a href='/#about-cmpnt-container'>About</a>
+                <Link to='/#about-cmpnt-container'><span>About</span>
+                </Link>
               </div>
               <div class='link-item'>
-                <a href='/#about-cmpnt-container'>Portfolio</a>
+                <Link to='/#portfolio-cmpnt-container'><span>Portfolio</span>
+                </Link>
               </div>
               <div class='link-item'>
-                <a href='/#about-cmpnt-container'>Internships</a>
+                <Link to='/#internship-cmpnt-container'><span>Internship</span>
+                </Link>
               </div>  
               <div class='link-item'>
-                <a href='/#about-cmpnt-container'>Contact</a>
+                <Link to='/#contact-cmpnt-container'><span>Contact</span>
+                </Link>
               </div>            
             </div>
           </div>
@@ -40,7 +46,7 @@ class Footer extends React.Component {
           <div id='footer-contacts' class='footer-col'>
             <p>CONTACT US</p>
             <div>
-              <p><a href="mailto:learn@ardentlbs.io">learn@ardentlbs.io</a>learn@ardentlbs.io</p>
+              <p><a href="mailto:learn@ardentlbs.io">learn@ardentlbs.io</a></p>
               <p>(949)-496-1688</p>
               <p>4199 Campus Drive</p>
               <p>Suite 260</p>
