@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Also build with following package
+"react-responsive-carousel": "^3.2.20"
+"react-router-dom": "^5.2.0"
+"react-router-hash-link": "^2.4.3"
 
 ## Running on Repl.it
 
