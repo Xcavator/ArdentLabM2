@@ -1,0 +1,51 @@
+#banner-cmpnt-container{
+  margin: 0 0 200px 0;
+}
+.banner{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.banner > p {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 24px;
+}
+
+.banner-col{
+  margin: 0;
+  /* display: inline-flex; */
+  width: 450px;
+  /* height: 400px; */
+  padding: 0 0 0 5%;
+  position: relative;
+
+}
+#banner-text-container{
+  display: inline-block;
+}
+
+.banner-text{
+  font-size: 88px;
+  color: white;
+  display: block;
+  margin: 0 0 0 0;
+  width: 450px;
+}
+
+#pic-slide {
+  max-width: 450px;
+  /* max-height: 400px; */
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.banner a{
+  color: white;
+}

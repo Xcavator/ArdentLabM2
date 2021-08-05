@@ -1,6 +1,15 @@
+#mission-title{
+  margin-left: 100px;
+}
+
+#mission-title p span{
+  font-size:  88px;
+  color: #646666;
+}
 #mission-cmpnt-container {
   background-color: #ffffff;
   width: 100%;
+  padding-top: 100px;
 }
 
 #mission-list-container {
@@ -17,5 +26,32 @@
   margin-left: auto;
   margin-right: auto;
   align-content: center;
-  width: 60%;
+  width: 70%;
+}
+
+.mission-item-num{
+  font-size: 260px;
+  
+}
+
+.mission-item-num span{
+  color: #CCCCCA;
+
+}
+
+.mission-content-title{
+  font-size: 36px;
+  color:#0099ff;
+  margin-bottom: 50px;
+}
+.mission-content-text{
+  font-size:18px;
+  color: #646666;
+}
+
+#mission-video-container video{
+  width: 800px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
 }

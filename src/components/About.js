@@ -5,7 +5,7 @@ class About extends React.Component {
   render() {
     return (
       <div id='about-cmpnt-container'>
-        <div>
+        <div id='about-title'>
           <p>
             <span>WHO WE ARE</span>
           </p>
@@ -13,6 +13,7 @@ class About extends React.Component {
         <div id='about-list-container'>
           <div id='about-story' class='about-item-container'>
             <div id='story-logo' class='about-item-logo'>
+              <img src='story.svg' alt='story-logo-alt'/>
             </div>
             <div id='story-content' class='about-item-content'>
               <span class='item-content-headline'>OUR STORY</span>
@@ -21,6 +22,7 @@ class About extends React.Component {
           </div>
           <div id='about-vision' class='about-item-container'>
             <div id='vision-logo' class='about-item-logo'>
+              <img src='vision.svg' alt='vision-logo-alt'/>
             </div>
             <div id='vision-content' class='about-item-content'>
               <span class='item-content-headline'>OUR VISION</span>
@@ -29,6 +31,7 @@ class About extends React.Component {
           </div>
           <div id='about-technology' class='about-item-container'>
             <div id='technology-logo' class='about-item-logo'>
+              <img src='technology.svg' alt='technology-logo-alt'/>
             </div>
             <div id='technology-content' class='about-item-content'>
               <span class='item-content-headline'>Technology</span>

@@ -5,9 +5,9 @@ class Mission extends React.Component {
   render() {
     return (
       <div id='mission-cmpnt-container'>
-        <div>
+        <div id='mission-title'>
           <p>
-            <span>Mission</span>
+            <span>WHAT WE DO</span>
           </p>
         </div>
         <div id='mission-list-container'>
@@ -16,6 +16,7 @@ class Mission extends React.Component {
               <span>01</span>
             </div>
             <div class='mission-item-breakline'>
+              <hr />
             </div>
             <div class='mission-item-content'>
               <p class='mission-content-title'>BUILD</p>
@@ -27,6 +28,7 @@ class Mission extends React.Component {
               <span>02</span>
             </div>
             <div class='mission-item-breakline'>
+              <hr />
             </div>
             <div class='mission-item-content'>
               <p class='mission-content-title'>TRAIN</p>
@@ -38,6 +40,7 @@ class Mission extends React.Component {
               <span>03</span>
             </div>
             <div class='mission-item-breakline'>
+              <hr />
             </div>
             <div class='mission-item-content'>
               <p class='mission-content-title'>INCUBATE</p>

@@ -1,0 +1,98 @@
+#internship-page-container{
+  color: white;
+  width:100%;
+}
+#internship-intro h1{
+  font-size: 78px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#internship-page-container a{
+  color: white;
+}
+
+#internship-page-container>div{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-title h2{
+  font-size: 42px;
+}
+
+.intro-content{
+  font-size: 21px;
+}
+
+.profile-picture img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.intern-contact-email{
+  text-align: center;
+}
+#program-intro{
+  width: 100%;
+}
+#pdf-container{
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+#progam-pdf-link{
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  width: 100%;
+  padding: 5px 20px;
+}
+
+#program-intro-title{
+  font-size: 58px;
+}
+
+#mentor-list{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  flex-wrap: wrap;
+}
+
+.mentor-profile{
+  display: flex;
+  flex-direction: row;
+  width: 480px;
+  margin-top: 50px;
+}
+
+.profile-intro{
+  padding-left: 10px;
+}
+
+.profile-intro p{
+  margin: 5px 0;
+}
+
+p.profile-name{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p.ardent-title{
+  font-size: 18px;
+}
+
+p.job-offer{
+  font-size: 18px;
+  font-style: italic;
+}

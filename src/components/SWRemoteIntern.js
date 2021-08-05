@@ -1,12 +1,8 @@
 import React from "react";
-// import "./Contact.css";
+import "./SWRemoteIntern.css";
 
-import Footer from "./Footer";
 
 class SWRIntern extends React.Component {
-  // submitHandler(){
-  //   console.log('submit clicked');
-  // }
   render() {
     return (
       <div id='internship-page-container'>
@@ -48,7 +44,6 @@ class SWRIntern extends React.Component {
             </div>
             <div class='intro-content'>
               <p>During the 8-10 weeks internship, interns will work on learning the tools used by our products through completing milestone projects. There will be four milestone projects to work on throughout the program that interns can complete at their own pace.</p>
-              <br />
               <p>Interns will be required to work at least 10 hours per week to make sufficient progress on these projects.</p>
             </div>
           </div>
@@ -60,7 +55,7 @@ class SWRIntern extends React.Component {
               <h2>When does the program end?</h2> 
             </div>
             <div class='intro-content'>
-              <p>This virtual internship takes place during the duration of UCI's spring quarter. The internship will end on June 5th, and interns who are interested in the summer internship will need to send in another application around May 10th. To learn more about about our summer internships, click here.</p>
+              <p>This virtual internship takes place during the duration of UCI's spring quarter. The internship will end on June 5th, and interns who are interested in the summer internship will need to send in another application around May 10th. To learn more about about our summer internships, <a href='https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf'>click here</a>.</p>
             </div>
           </div>
 
@@ -86,27 +81,48 @@ class SWRIntern extends React.Component {
                 <p class='job-offer'>Full time job offer at Western Digital</p>
               </div>
             </div>
+            <div class='mentor-profile'>
+              <div class='profile-picture'>
+                <img src='https://cdn.vox-cdn.com/thumbor/SnEPfFoamf_20liNFDWyBVxzEHk=/0x0:939x704/920x613/filters:focal(0x0:939x704):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49610677/homersimpson.0.0.jpg' alt='Homer'/>
+              </div>
+              <div class='profile-intro'>
+                <p class='profile-name'>Homer</p>
+                <p class='ardent-title'>Software Engineer at Ardent Labs</p>
+                <p class='job-offer'>Full time job offer at Western Digital</p>
+              </div>
+            </div>
+            <div class='mentor-profile'>
+              <div class='profile-picture'>
+                <img src='https://cdn.vox-cdn.com/thumbor/SnEPfFoamf_20liNFDWyBVxzEHk=/0x0:939x704/920x613/filters:focal(0x0:939x704):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49610677/homersimpson.0.0.jpg' alt='Homer'/>
+              </div>
+              <div class='profile-intro'>
+                <p class='profile-name'>Homer</p>
+                <p class='ardent-title'>Software Engineer at Ardent Labs</p>
+                <p class='job-offer'>Full time job offer at Western Digital</p>
+              </div>
+            </div>
+          
           </div>
         </div>
         
         <div class='page-seperate-line'></div>
 
         <div id='program-intro'>
-          <div>
+          <div id='program-intro-title'>
             <p>YEAR-ROUND INTERNSHIP PROGRAM</p>
           </div>
           <div>
             <p>Interested in developing a career in leading tech companies? Consider participating in our summer internship, which is a part of our comprehensive year-round internship program! This program consists of three stages where each stage drives interns towards ultimately creating an MVP (Minimum Viable Product) and taking charge of their product vision from start to finish.</p>
           </div>
-          <div>
-            <a href='https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf'>LEARN MORE ABOUT OUR PROGRAM HERE</a>
+          <div id='pdf-container'>
+            <a id='progam-pdf-link' href='https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf'>LEARN MORE ABOUT OUR PROGRAM HERE</a>
           </div>
-          <div>
+          <div class='intern-contact-email'>
             <p>If you are interested in applying, please send your resume and transcript to<a href="mailto:info@ardentlabs.io?subject=Resume for Software Engineering Remote Internship"> info@ardentlabs.io.</a></p>
           </div>
         </div>
 
-        <Footer />
+
       </div>
     );
   }

@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -7,3 +7,6 @@
   pointer-events: none;
 }
 
+a {
+  text-decoration: none;
+}

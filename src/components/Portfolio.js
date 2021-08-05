@@ -5,7 +5,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div id='portfolio-cmpnt-container'>
-        <div>
+        <div id='portfolio-title'>
           <p>
             <span>Portfolio</span>
           </p>

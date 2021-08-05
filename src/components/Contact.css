@@ -1,0 +1,51 @@
+#contact-cmpnt-container{
+  background-color: #EFEFEF;
+  padding-left: 100px;
+  margin: auto;
+  padding-right: 100px;
+  min-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  flex-wrap: nowrap;
+}
+
+#contact-cmpnt-container p {
+  display: block;
+  margin: 0;
+  font-size: 24px;
+  color: #0099ff;
+  width: 340px;
+  padding-right: 5px;
+}
+#contact-cmpnt-container > div{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+
+#contact-form-container{
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  
+}
+#contact-form-container input{
+  width: 500px;
+}
+
+#submit-btn{
+  margin-left: auto;
+  border: none;
+  display: block;
+  margin-right: 20px;
+}
+
+#contact-msg-input{
+  height: 130px;
+  width: 495px;
+  text-align: left;
+  padding: 5px;
+  margin-top: 10px;
+  resize: none;
+}

@@ -3,6 +3,7 @@ import "./Contact.css";
 
 class Contact extends React.Component {
   submitHandler(){
+    console.log();
     console.log('submit clicked');
   }
   render() {
@@ -12,11 +13,12 @@ class Contact extends React.Component {
           <p>Are you interested in developing a career and getting jobs at leading tech companies? Send us a short message and we will contact you shortly.</p>
         </div>
         <div id='contact-form-container'>
-          <form>
-            <input type='text' />
-            <input type='text' />
+          <form id='my-form'>
+            <input type='text' placeholder='Email'/>
+            <br />
+            <textarea type='text' id='contact-msg-input' placeholder='Type your message here...'/>
           </form>
-          <button id='submit-btn' onClick={()=>this.submitHandler()}>submit</button>
+          <button id='submit-btn' form='my-form' type='submit' onClick={()=>this.submitHandler()}>submit</button>
         </div>
       </div>
     );

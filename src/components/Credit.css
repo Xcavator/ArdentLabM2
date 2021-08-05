@@ -3,14 +3,16 @@
   /* position: absolute; */
   width: 100%;
   background-color: #ffffff;
+  padding: 10px 0 10px 0;
 }
 
-p{
+#credit-cmpnt-container p{
   font-size: 14px;
   margin: 0;
+  text-align: center;
 }
 
-span
+#credit-cmpnt-container span
 {
   position: relative;
   color: #00D2D4 ;

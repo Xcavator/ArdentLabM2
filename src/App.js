@@ -11,6 +11,7 @@ import SWRIntern from "./components/SWRemoteIntern"
 // import Portfolio from "./components/Portfolio";
 // import Internships from "./components/Internships";
 // import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Redirect to="/" />
           </Route>
         </Switch>
+        <Footer />
         <Credit />
       </div>
     </Router>

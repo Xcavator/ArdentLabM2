@@ -1,4 +1,31 @@
 #internships-cmpnt-container {
   background-color: #EFEFEF;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #646666;
+}
 
+#internships-title{
+  margin-left: 100px;
+  padding: 0;
+  font-size:  88px;
+}
+
+#internships-title p{
+  margin:0;
+}
+
+.job-position{
+  padding-top:20px;
+  margin-left: 100px;
+  margin-right: auto;
+  width: 800px;
+}
+
+.job-title{
+  font-size: 24px;
+}
+
+.job-description{
+  font-size: 18px;
 }

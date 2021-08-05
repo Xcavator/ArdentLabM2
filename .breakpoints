@@ -1,3 +1,20 @@
 {
-  "files": {}
+  "files": {
+    "src/components/Banner.css": [
+      {
+        "id": "4a91f7a1-8eeb-4234-8683-e7b657e7ac43",
+        "line": 47,
+        "version": 759,
+        "index": 675
+      }
+    ],
+    "src/components/Footer.css": [
+      {
+        "id": "3e5dbce2-1680-41e2-a240-090d38951cea",
+        "line": 20,
+        "version": 566,
+        "index": 324
+      }
+    ]
+  }
 }

@@ -5,7 +5,7 @@ class Internships extends React.Component {
   render() {
     return (
       <div id='internships-cmpnt-container'>
-      <div>
+      <div id='internships-title'>
         <p>
           <span>Internships</span>
         </p>

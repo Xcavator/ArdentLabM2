@@ -12,7 +12,9 @@ class Footer extends React.Component {
           </div>
 
           <div id='footer-links' class='footer-col'>
-            <p>QUICK LINKS</p>
+            <div class='footer-col-title'>
+              <p>QUICK LINKS</p>
+            </div>
             <div id='link-list'>              
               <div class='link-item'>
                 <Link to='/'><span>Home</span></Link>
@@ -44,10 +46,13 @@ class Footer extends React.Component {
           </div>
 
           <div id='footer-contacts' class='footer-col'>
-            <p>CONTACT US</p>
-            <div>
+            <div class='footer-col-title'>
+              <p>CONTACT US</p>
+              </div>
+            <div class='contact-info'>
               <p><a href="mailto:learn@ardentlbs.io">learn@ardentlbs.io</a></p>
               <p>(949)-496-1688</p>
+              <br/>
               <p>4199 Campus Drive</p>
               <p>Suite 260</p>
               <p>Irvine, CA 92612</p>
@@ -55,15 +60,21 @@ class Footer extends React.Component {
           </div>
 
           <div id='footer-connect' class='footer-col'>
+            <div class='footer-col-title'>
             <p>CONNECT</p>
+            </div>
+            <div class='connect-list'>
             <div class='connect-item'>
-              <div></div>
+              <a href="https://www.linkedin.com/company/ardentlabs"><img alt="White LinkedIn Icon" src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp" /></a>
+            </div>
+            <div class='connect-item'>
+              <a href="https://twitter.com/ArdentLabsNews"><img alt="White Twitter Icon" src="https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01/01ab6619093f45388d66736ec22e5885.webp" /></a>
+            </div>
+            <div class='connect-item'>
+              <a href="http://www.facebook.com/ArdentLabs.io"><img alt="White Facebook Icon" src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01/23fd2a2be53141ed810f4d3dcdcd01fa.webp"/></a>
+            </div>
             </div>
           </div>
-
-          <p>
-            <span>this is  footer</span>
-          </p>
         </div>
     );
   }
